@@ -1,5 +1,6 @@
 import "./App.less";
 
+import { Button } from "antd";
 import logo from "./logo.svg";
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          antd react 18
         </p>
         <a
           className="App-link"
@@ -18,6 +19,7 @@ function App() {
         >
           Learn React
         </a>
+        <Button>antd button</Button>
       </header>
     </div>
   );
